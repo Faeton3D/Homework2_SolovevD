@@ -23,11 +23,11 @@ if (day == "5")
 }
 if (day == "6")
 {
-    Console.WriteLine("Суббота");
+    Console.Write("Суббота. ");
 }
 if (day == "7")
 {
-    Console.WriteLine("Воскресение");
+    Console.Write("Воскресение. ");
 }
 if (day == "6" || day == "7")
 {
