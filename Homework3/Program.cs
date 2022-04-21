@@ -1,6 +1,8 @@
-﻿int number = 1408; 
+﻿int number = -1408; 
 
-if (number <=99)
+number = Math.Abs(number);
+
+if (number <=99 && number >=0)
 {
     Console.WriteLine($"Третьей цифры в заданном числе нет.");
 }
