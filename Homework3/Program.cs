@@ -2,7 +2,7 @@
 
 number = Math.Abs(number);
 
-if (number <=99 && number >=0)
+if (number <=99)
 {
     Console.WriteLine($"Третьей цифры в заданном числе нет.");
 }
